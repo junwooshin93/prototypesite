@@ -1,0 +1,44 @@
+.nav__items {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 40px;
+    padding: 10px 30px;
+    font-family: var(--font-koreanisch);
+    position: relative;
+}
+
+.nav__item:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav__item__list {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 150px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.nav__item__content {
+    margin-bottom: 15px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: var(--font-englisch);
+}
+
+.nav__item__content:hover {
+    margin-bottom: 14px;
+    border-bottom: 1px solid black;
+}
+
+.hide__nav__list {
+    padding-top: 0;
+    height: 0;
+}

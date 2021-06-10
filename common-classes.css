@@ -1,0 +1,15 @@
+.common-margin {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.common-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}

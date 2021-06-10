@@ -1,0 +1,10 @@
+.header {
+    width: 100%;
+}
+
+.header__title {
+    font-size: 60px;
+    font-family: var(--font-koreanisch);
+    margin-top: 40px;
+    text-align: center;
+}
