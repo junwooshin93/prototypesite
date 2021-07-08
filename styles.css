@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jua&display=swap");
 @import "reset.css";
 @import "variables.css";
 @import "common-classes.css";
@@ -6,12 +6,17 @@
 /* CSS  */
 @import "css/header.css";
 @import "css/header-nav.css";
+@import "css/main-list.css";
 
 h1 {
     font-family: var(--font-koreanisch);
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }

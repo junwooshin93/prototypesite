@@ -9,10 +9,16 @@
     padding: 10px 30px;
     font-family: var(--font-koreanisch);
     position: relative;
+    cursor: pointer;
 }
 
 .nav__item:hover {
     border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.nav__item__title {
+    cursor: pointer;
 }
 
 .nav__item__list {
