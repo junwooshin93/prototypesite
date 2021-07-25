@@ -50,11 +50,22 @@
 
 .main__column__contents {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.main__column__contents__column {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0px 5px;
+}
+
+.img__box {
+    margin: 5px 0px;
 }
 
 .img__foto {
     width: 400px;
+    box-shadow: 0px 0px 5px 0px var(--font-color-smoothgray);
 }
 
 .img__desc {
@@ -63,6 +74,9 @@
 }
 
 .img__name {
-    font-weight: 600;
     color: var(--font-color-smoothgray);
+}
+
+.img__detail {
+    font-size: 14px;
 }
